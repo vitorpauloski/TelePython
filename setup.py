@@ -22,5 +22,5 @@ setuptools.setup(
         'Topic :: Communications :: Chat',
     ],
     python_requires = '>= 3.8',
-    install_requires = ['requests >= 2.25.1'],
+    install_requires = ['requests'],
 )
