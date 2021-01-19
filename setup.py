@@ -5,10 +5,10 @@ with open('README.md', 'r', encoding = 'utf-8') as fh:
 
 setuptools.setup(
     name = 'TelePython',
-    version = '1.0.0',
+    version = '1.1.0',
     author = 'Vitor Leonardo Pauloski',
     author_email = 'vitorleonardo.pauloski@gmail.com',
-    description = 'Um pacote para facilitar o envio de mensagens de texto e documentos pelo Telegram.',
+    description = 'TelePython is a Python package for sending and receiving messages and documents by a Telegram Bot, based on Telegram Bot API.',
     long_description = long_description,
     long_description_content_type = 'text/markdown',
     url = 'https://github.com/vitorpauloski/TelePython',
