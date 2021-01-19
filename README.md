@@ -4,7 +4,7 @@ TelePython is a Python package for sending and receiving messages and documents 
 
 ## Installation
 
-TelePython is available on PyPI:
+TelePython is available on [PyPI](https://pypi.org/project/TelePython/):
 ```
 pip install TelePython
 ```
