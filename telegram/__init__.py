@@ -44,7 +44,7 @@ class Bot:
     def sendDocument(self, chat_id, file_path):
         url = 'https://api.telegram.org/' + self.token + '/sendDocument'
         params = {'chat_id': chat_id}
-        files = {'document': open(file_path)}
+        files = {'document': open(file_path, 'rb')}
         request = requests.post(url, params = params, files = files)
         if request.status_code == 200:
             response = json.loads(request.text)['result']
