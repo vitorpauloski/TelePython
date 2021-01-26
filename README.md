@@ -48,7 +48,7 @@ Example:
 >>> import telegram
 >>> bot = telegram.Bot('YOUR_BOT_TOKEN')
 >>> response = bot.getUpdates()
->>> response.succes
+>>> response.success
 True
 >>> response.response
 [{'update_id': 675682626, 'message': {'message_id': 56, 'from': {'id': 8644990718, 'is_bot': False, 'first_name': 'Vitor', 'last_name': 'Pauloski', 'username': 'vitorpauloski', 'language_code': 'pt-br'}, 'chat': {'id': 8644990718, 'first_name': 'Vitor', 'last_name': 'Pauloski', 'username': 'vitorpauloski', 'type': 'private'}, 'date': 1611617371, 'text': 'Test Message.'}}]
