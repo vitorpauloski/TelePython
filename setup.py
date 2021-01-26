@@ -5,7 +5,7 @@ with open('README.md', 'r', encoding = 'utf-8') as fh:
 
 setuptools.setup(
     name = 'TelePython',
-    version = '1.2.0',
+    version = '1.2.1',
     author = 'Vitor Leonardo Pauloski',
     author_email = 'vitorleonardo.pauloski@gmail.com',
     description = 'TelePython is a Python package for sending and receiving messages and documents by a Telegram Bot, based on Telegram Bot API.',
