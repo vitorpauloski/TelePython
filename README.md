@@ -45,7 +45,7 @@ If `success` is True, it returns the result of the request to the Telegram Bot A
 Example:
 
 ```python
->>>  import telegram
+>>> import telegram
 >>> bot = telegram.Bot('YOUR_BOT_TOKEN')
 >>> response = bot.getUpdates()
 >>> response.succes
