@@ -40,7 +40,7 @@ The Response objects have two parameters:
 Indicates whether the request was successful (True or False).
 
 - **response**\
-returns the result of the request to the Telegram Bot API
+If `success` is True, it returns the result of the request to the Telegram Bot API, otherwise, it returns the request error code.
 
 Example:
 
